@@ -1,17 +1,20 @@
-body {
-    background: white;
-};
+p {
+    color: #B0B0B0;
+}
 
 @font-face {
     font-family: "San Francisco";
     src: url("./vendor/fonts/SFText-Light")
 }
 
-h2 {
-    font-family: "San Francisco";
-};
+.btn-default {
+    background-color: #F57266;
+    color: white;
+}
 
 .nav-links {
     text-align: right;
     float: right;
 };
+
+
