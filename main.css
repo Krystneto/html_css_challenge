@@ -1,15 +1,25 @@
+h1 {
+    font-size: 38px;
+}
+
 p {
     color: #B0B0B0;
+    font-size: 18px;
+    font-family: 'San Francisco'
 }
 
 @font-face {
     font-family: "San Francisco";
-    src: url("./vendor/fonts/SFText-Light")
+    src: url("./vendor/fonts/SFText-Light.otf")
 }
 
 .btn-default {
     background-color: #F57266;
     color: white;
+}
+
+.sign-up {
+    background: #F7F7F7;
 }
 /*
 .nav-links {
