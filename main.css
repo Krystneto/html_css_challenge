@@ -12,12 +12,17 @@
     padding-top: 5%;
 }
 
+#nav img {
+    text-align: left;
+    margin-left: -15%
+}
+
 #nav a {
-    margin-right: 15%;
     display: inline-block;
     line-height: 50px;
     color: black;
     font-size: 12px;
+    padding: 0 5%;
 }
 
 h1 {
@@ -101,7 +106,7 @@ p {
 }
 
 .featured-logos li {
-    padding: 2.5% 0%;
+    padding: 2.5%;
 }
 
 
