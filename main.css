@@ -5,9 +5,20 @@
 
 @font-face {
     font-family: "SFDisplay-Medium";
-    src: url("./vender/font/SFDisplay-Medium.otf");
+    src: url("./vendor/fonts/SFDisplay-Medium.otf");
 }
 
+#nav {
+    padding-top: 5%;
+}
+
+#nav a {
+    margin-right: 15%;
+    display: inline-block;
+    line-height: 50px;
+    color: black;
+    font-size: 12px;
+}
 
 h1 {
     font-size: 38px;
@@ -19,24 +30,53 @@ p {
     font-family: 'SFText-Light'
 }
 
+.intro {
+    padding-top: 5%;
+}
 
 .btn-default {
     background-color: #F57266;
     color: white;
 }
 
+.gray-banner {
+    z-index: -1;
+    background: #F7F7F7;
+    margin-top: -20%;
+}
+
+.email {
+    padding-bottom: 10%;
+    margin-top: -15%;
+
+}
+
+
 .sign-up {
     background: #F7F7F7;
 }
 
+.group-icons {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.iphones {
+    z-index: 1;
+}
+
 .kickstarter {
+    z-index: -1;
     background: #F57266;
+    margin-top: -12%;
+    padding-bottom: 5%;
+
 }
 
 .kickstarter h1 {
     color: white;
     font-size: 50px;
-    font-family: Helvetica;
+    font-family: "SFDisplay-Medium";
     vertical-align: text-top;
 }
 
@@ -48,3 +88,20 @@ p {
 .kickstarter button {
     border-color: black;
 }
+
+.featured-logos {
+    padding-top: 5%;
+}
+
+.featured-logos h3 {
+    font-family: "SFDisplay-Medium";
+    font-size: 24px;
+    font-weight: normal;
+    padding: 2.5%;
+}
+
+.featured-logos li {
+    padding: 2.5% 0%;
+}
+
+
