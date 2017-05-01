@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "SFText-Light";
+    src: url("./vendor/fonts/SFText-Light.otf");
+}
+
+@font-face {
+    font-family: "SFDisplay-Medium";
+    src: url("./vender/font/SFDisplay-Medium.otf");
+}
+
+
 h1 {
     font-size: 38px;
 }
@@ -5,13 +16,9 @@ h1 {
 p {
     color: #B0B0B0;
     font-size: 18px;
-    font-family: 'San Francisco'
+    font-family: 'SFText-Light'
 }
 
-@font-face {
-    font-family: "San Francisco";
-    src: url("./vendor/fonts/SFText-Light.otf")
-}
 
 .btn-default {
     background-color: #F57266;
@@ -21,10 +28,23 @@ p {
 .sign-up {
     background: #F7F7F7;
 }
-/*
-.nav-links {
-    text-align: right;
-    float: right;
-};
-*/
 
+.kickstarter {
+    background: #F57266;
+}
+
+.kickstarter h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica;
+    vertical-align: text-top;
+}
+
+.kickstarter p {
+    color: #282828;
+    font-size: 20px;
+}
+
+.kickstarter button {
+    border-color: black;
+}
